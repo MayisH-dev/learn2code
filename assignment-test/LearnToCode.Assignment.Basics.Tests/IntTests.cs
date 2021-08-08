@@ -27,5 +27,17 @@ namespace LearnToCode.Assignment.Basics.Tests
             Prop.ForAll<int, int>(SumProperty)
                 .QuickCheckThrowOnFailure();
         }
+
+        [Fact]
+        public void IntFromString_ReturnsIntRepresentation()
+        {
+            Int assignment = new();
+
+            bool IntRepresentationProperty(int number) =>
+                assignment.IntFromString(number.ToString()) == number;
+
+            Prop.ForAll<int>(IntRepresentationProperty)
+                .QuickCheckThrowOnFailure();
+        }
     }
 }

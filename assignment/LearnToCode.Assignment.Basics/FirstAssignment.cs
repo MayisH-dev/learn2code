@@ -7,7 +7,7 @@ namespace LearnToCode.Assignment.Basics
         // "Hello, world"
         public string HelloProgrammer()
         {
-            return "The text goes inside the brackets";
+            return "The text goes inside the quotes";
         }
 
         // You have to return a personalized greeting

@@ -23,5 +23,20 @@ namespace LearnToCode.Assignment.Basics
         {
             return 0;
         }
+
+        // You have to return an integer representing the string
+        // Assume that input is always a string representation of a number
+        public int IntFromString(string s)
+        {
+            // e.g. when s is "123" return 123
+            return 0;
+        }
+
+        // You have to return an integer that is the given integer with the first and last digits inverted 
+        public int InvertFirstAndLastDigits(int number)
+        {
+            // e.g. when number is 1234 return 4231
+            return 0;
+        }
     }
 }
